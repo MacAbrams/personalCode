@@ -10,7 +10,7 @@ class lectureRooms{
 		MergeSort sort = new MergeSort();
 		ArrayList<String> input = new ArrayList<String>();
 		//takes all user inputs
-		System.out.print("\033[2JEnter a time range of two Integers seperated by a comma:\n\033[S5");
+		System.out.print("\033[2JEnter a time range of two Integers seperated by a comma:\n\033[5S");
 
 		while(true){
 			System.out.print("\033[5BQ to Exit");
